@@ -148,6 +148,7 @@
                 intensity,
                 period,
                 restarts = [],
+                dynamic_restarts = 0,
                 module,
                 args}).
 
@@ -158,6 +159,7 @@
                         intensity :: non_neg_integer(),
                         period    :: pos_integer(),
                         restarts  :: list(),
+                        dynamic_restarts  :: non_neg_integer(),
                         module    :: module(),
                         args      :: list()
                        }.
